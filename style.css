@@ -1,0 +1,79 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#0f172a;
+color:white;
+}
+
+header{
+text-align:center;
+padding:50px 20px;
+background:linear-gradient(135deg,#0ea5e9,#2563eb);
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+.socials{
+margin-top:20px;
+}
+
+.socials a{
+color:white;
+font-size:28px;
+margin:0 10px;
+}
+
+.card{
+background:#1e293b;
+width:90%;
+max-width:1000px;
+margin:25px auto;
+padding:25px;
+border-radius:15px;
+}
+
+.card h2{
+color:#38bdf8;
+margin-bottom:15px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skills span{
+background:#38bdf8;
+color:black;
+padding:8px 15px;
+border-radius:20px;
+font-weight:bold;
+}
+
+.project{
+background:#334155;
+padding:15px;
+margin-top:12px;
+border-radius:10px;
+}
+
+.project:hover{
+transform:translateY(-5px);
+transition:0.3s;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+margin-top:30px;
+}
